@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .artwork {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .artwork img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .artwork img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Art Shopping</h1>
+    </header>
+
+    <section>
+        <h2>Featured Artworks</h2>
+
+        <div class="artwork">
+            <img src="C:\Users\SABA\Downloads\6b5291a94879c068737f43c215dc11a1.jpg" alt="Artwork 1">
+            <img src="C:\Users\SABA\Downloads\b85030896325defd7598816a972dbd15.jpg" alt="Artwork 2">
+            <img src="C:\Users\SABA\Downloads\d2b970a57b2d2ba6ffd36704637a34de.jpg" alt="Artwork 3">
+            <!-- Add more artwork images as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Art Shopping</p>
+    </footer>
+</body>
+</html>
