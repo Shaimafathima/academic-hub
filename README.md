@@ -1,1 +1,1 @@
-# academic-hub
+This is a college website
